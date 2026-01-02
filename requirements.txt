@@ -1,0 +1,13 @@
+exifread
+PyPDF2
+python-docx
+openpyxl
+python-pptx
+pymediainfo
+Pillow
+ttkbootstrap
+reportlab
+python-magic
+APScheduler
+jinja2
+pandas
