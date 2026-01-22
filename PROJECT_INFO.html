@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MetaTrace - Project Information</title>
+    <style>
+      body {
+        background: #fff;
+        color: #222;
+        font-family: Segoe UI, Arial, sans-serif;
+        margin: 0;
+        padding: 30px;
+      }
+      h1 {
+        color: #222;
+        font-size: 2em;
+        margin-bottom: 0.5em;
+      }
+      .desc {
+        margin-bottom: 1.5em;
+        font-size: 1.05em;
+      }
+      .desc b {
+        color: #222;
+      }
+      .section-title {
+        color: #1f77b4;
+        font-size: 1.2em;
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+        font-weight: bold;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 1.5em;
+      }
+      th,
+      td {
+        border: 1px solid #bbb;
+        padding: 8px 12px;
+        text-align: left;
+      }
+      th {
+        background: #f5f5f5;
+        font-weight: bold;
+      }
+      td {
+        background: #fff;
+      }
+      .status-completed {
+        color: #28a745;
+        font-weight: bold;
+      }
+      .status-ongoing {
+        color: #ff9800;
+        font-weight: bold;
+      }
+      .logo {
+        float: right;
+        margin-top: -30px;
+        font-size: 2em;
+      }
+      .dev-table th,
+      .dev-table td,
+      .comp-table th,
+      .comp-table td,
+      .features-table th,
+      .features-table td {
+        border: 1px solid #bbb;
+      }
+      .dev-table th,
+      .comp-table th,
+      .features-table th {
+        background: #f5f5f5;
+      }
+      .dev-table td,
+      .comp-table td,
+      .features-table td {
+        background: #fff;
+      }
+      .feature-check {
+        color: #28a745;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">🔍</div>
+    <h1>MetaTrace Desktop - Project Information</h1>
+    <div class="desc">
+      This project was developed by
+      <b>Dhana Anjana S</b> as part of an
+      <b>Advanced Cybersecurity Internship</b>.<br />
+      This project is designed to
+      <b>Extract and correlate digital evidence metadata for forensic analysis and investigation support.</b>
+    </div>
+
+    <div class="section-title">Project Details</div>
+    <table>
+      <tr>
+        <th>Project Name</th>
+        <td>MetaTrace Desktop</td>
+      </tr>
+      <tr>
+        <th>Project Description</th>
+        <td>
+          A comprehensive metadata extraction and correlation analysis tool for digital forensics.
+          Automatically detects file types, extracts embedded metadata, validates file signatures,
+          and finds connections between files through intelligent metadata correlation.
+        </td>
+      </tr>
+      <tr>
+        <th>Project Start Date</th>
+        <td>January 2026</td>
+      </tr>
+      <tr>
+        <th>Project End Date</th>
+        <td>January 2026</td>
+      </tr>
+      <tr>
+        <th>Project Status</th>
+        <td class="status-completed">Completed</td>
+      </tr>
+      <tr>
+        <th>Version</th>
+        <td>1.0</td>
+      </tr>
+    </table>
+
+    <div class="section-title">Features Implemented</div>
+    <table class="features-table">
+      <tr>
+        <th>Feature</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Metadata Extraction (Images, PDFs, Documents)</td>
+        <td class="feature-check">✓ Completed</td>
+      </tr>
+      <tr>
+        <td>File Signature Validation & Fake Extension Detection</td>
+        <td class="feature-check">✓ Completed</td>
+      </tr>
+      <tr>
+        <td>Anomaly Detection (Temporal, Empty Files, Signature Mismatch)</td>
+        <td class="feature-check">✓ Completed</td>
+      </tr>
+      <tr>
+        <td>Correlation Analysis (Author, Device, Software, Timestamps)</td>
+        <td class="feature-check">✓ Completed</td>
+      </tr>
+      <tr>
+        <td>Hash Calculation (MD5, SHA1, SHA256, SHA512)</td>
+        <td class="feature-check">✓ Completed</td>
+      </tr>
+      <tr>
+        <td>Multi-File Support & Folder Scanning</td>
+        <td class="feature-check">✓ Completed</td>
+      </tr>
+      <tr>
+        <td>Report Generation (JSON, CSV, PDF, HTML)</td>
+        <td class="feature-check">✓ Completed</td>
+      </tr>
+      <tr>
+        <td>Email Report Delivery (Gmail)</td>
+        <td class="feature-check">✓ Completed</td>
+      </tr>
+      <tr>
+        <td>Activity Logging with Integrity Hashing</td>
+        <td class="feature-check">✓ Completed</td>
+      </tr>
+      <tr>
+        <td>Interactive GUI with Real-time Analysis</td>
+        <td class="feature-check">✓ Completed</td>
+      </tr>
+    </table>
+
+    <div class="section-title">Technology Stack</div>
+    <table class="comp-table">
+      <tr>
+        <th>Category</th>
+        <th>Technology</th>
+      </tr>
+      <tr>
+        <td>Language</td>
+        <td>Python 3.13</td>
+      </tr>
+      <tr>
+        <td>GUI Framework</td>
+        <td>Tkinter</td>
+      </tr>
+      <tr>
+        <td>PDF Processing</td>
+        <td>PyPDF2</td>
+      </tr>
+      <tr>
+        <td>Document Processing</td>
+        <td>python-docx, openpyxl, python-pptx</td>
+      </tr>
+      <tr>
+        <td>Image Processing</td>
+        <td>Pillow, exifread</td>
+      </tr>
+      <tr>
+        <td>Report Generation</td>
+        <td>ReportLab, Jinja2</td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>smtplib (Gmail SMTP)</td>
+      </tr>
+      <tr>
+        <td>Data Export</td>
+        <td>pandas (CSV), json</td>
+      </tr>
+    </table>
+
+    <div class="section-title">Developer Details</div>
+    <table class="dev-table">
+      <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Dhana Anjana S</td>
+        <td>Developer</td>
+        <td>dhanaanjana.official@gmail.com</td>
+      </tr>
+    </table>
+
+    <div class="section-title">Project Purpose & Privacy</div>
+    <table class="comp-table">
+      <tr>
+        <th>Aspect</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <td>Purpose</td>
+        <td>
+          Digital forensics and cybersecurity investigation support. Designed to help security professionals
+          analyze metadata from multiple files and identify connections, patterns, and potential evidence of
+          malicious activity or file tampering.
+        </td>
+      </tr>
+      <tr>
+        <td>Data Privacy</td>
+        <td>
+          All processing is local. No files or metadata are sent to external servers without explicit user action.
+          Email functionality uses personal Gmail credentials with app passwords (secure method).
+        </td>
+      </tr>
+      <tr>
+        <td>File Handling</td>
+        <td>
+          Files are analyzed but never modified. Hashes are calculated for integrity verification.
+          File signatures are validated locally against known formats.
+        </td>
+      </tr>
+      <tr>
+        <td>Logs & Evidence</td>
+        <td>
+          All activities are logged with timestamps and SHA256 integrity hashes.
+          Logs are stored locally and can be exported for case documentation.
+        </td>
+      </tr>
+    </table>
+
+    <div class="section-title">How to Use MetaTrace</div>
+    <div class="desc">
+      <b>1. Select Files:</b> Click "Select Files" to choose individual files or "Scan Folder" for batch analysis.<br><br>
+      <b>2. Analyze:</b> Click "Analyze" to extract metadata and find correlations automatically.<br><br>
+      <b>3. Review Results:</b> View extracted metadata, anomalies, and correlations in the tree display.<br><br>
+      <b>4. Export Reports:</b> Export results as JSON (data), CSV (spreadsheet), PDF (professional), or HTML (interactive).<br><br>
+      <b>5. Email Reports:</b> Send generated reports via Gmail using app passwords (secure method).<br><br>
+      <b>6. View Logs:</b> Check activity logs with timestamp and integrity verification.
+    </div>
+
+    <div class="section-title">Supported File Types</div>
+    <table class="features-table">
+      <tr>
+        <th>Category</th>
+        <th>Formats</th>
+      </tr>
+      <tr>
+        <td>Images</td>
+        <td>JPG, JPEG, PNG, GIF, BMP (with EXIF data)</td>
+      </tr>
+      <tr>
+        <td>Documents</td>
+        <td>PDF, DOCX (Word), XLSX (Excel), PPTX (PowerPoint)</td>
+      </tr>
+      <tr>
+        <td>Data</td>
+        <td>JSON, CSV, Archives (ZIP identification)</td>
+      </tr>
+      <tr>
+        <td>All Files</td>
+        <td>File signature validation, hash calculation, timestamp analysis</td>
+      </tr>
+    </table>
+
+    <hr style="margin-top: 40px; border: none; border-top: 1px solid #ccc;">
+    <div style="text-align: center; color: #666; font-size: 0.9em; margin-top: 20px;">
+      <p>MetaTrace Desktop v1.0 | Digital Evidence Analysis Tool</p>
+      <p>Developed for Cybersecurity Internship Assignment</p>
+      <p>© 2026 - All Rights Reserved</p>
+    </div>
+  </body>
+</html>
+
